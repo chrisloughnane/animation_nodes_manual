@@ -47,7 +47,7 @@ Then make sure that you actually downloaded a build for your operating system (L
 
 If you use **Windows** try to install `this <https://www.microsoft.com/en-US/download/details.aspx?id=48145>`_ first.
 
-One problem on **Linux** systems is that the builds don't seem to work everywhere. We haven't found a real solution (a build that works everywhere) yet. Therefor we provide multiple Linux builds and you have to check which one works for you.
+One problem on **Linux** systems is that the builds don't seem to work everywhere. We haven't found a real solution (a build that works everywhere) yet. I will upload multiple Linux builds if it becomes apparent that the official one does not work everywhere.
 
 Animation Nodes depends on `numpy <http://www.numpy.org/>`_. If you downloaded unofficial Blender versions it is possible that *numpy* is not included in those (the error message should tell you this). If this is the case you can either download another Blender build (preferably an `official <https://www.blender.org/download/>`_ one) or you have to install *numpy* manually yourself.
 
