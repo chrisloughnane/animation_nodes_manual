@@ -7,7 +7,7 @@ There are multiple data types in Animation Nodes, ones that mathematical like in
 Copying Data
 ============
 
-Animation Nodes automatically copy data if needed. For example, if you have a list of vectors and you input it to a single shuffl node, the data don't need to be copied and the original list is shuffled. If however I input it to another shuffle node, the data has to be copied because two nodes are using it, if it wasn't copied, then the second node will shuffle the shuffled list and not the list itself.
+Animation Nodes automatically copy data if needed. For example, if you have a list of vectors and you input it to a single shuffle node, the data don't need to be copied and the original list is shuffled. If however I input it to another shuffle node, the data has to be copied because two nodes are using it, if it wasn't copied, then the second node will shuffle the shuffled list and not the list itself.
 
 Animation Nodes have an option to identify nodes that copy data, you can enable by chaning **Color Mode** to *Needed Copies* in the developer panel.
 
@@ -29,4 +29,4 @@ Notice that I could have get the element as generic element then convert it to a
 Convert Node
 ------------
 
-The converter node convert and data type to any other data type if possible, the node automatically detect input and outputs, so if you want it to stope changing types, you have to chekc the lock button and choose the tpe mmanually by pressing on the only button there.
+The converter node convert and data type to any other data type if possible, the node automatically detects input and outputs, so if you want it to stop changing types, you will have to check the lock button and choose mmanually by pressing on the only button there.
