@@ -6,6 +6,6 @@ Some nodes in AN are said to be "vectorized". Vectorization is the ability for t
 
 .. image:: images/vectorization.png
 
-The first math nodes is streamed, it simply multiply every value in the float list by 1. The second math node is elementwise, it return a list of the same length where the first element is the multiple of first elements in both lists, second element is the multiple of the second elements in both list and so on.
+The first math nodes is streamed, it simply multiplies every value in the float list by 1. The second math node is elementwise, it returns a list of the same length where the first element is the multiple of first elements in both lists, second element is the multiple of the second elements in both list and so on.
 
 Vectorized nodes can be identified from their sockets, their sockets are semitransparent (More solid than lists, see the second socket in the first math node in the example above).
